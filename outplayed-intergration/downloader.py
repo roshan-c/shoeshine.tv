@@ -7,26 +7,20 @@ from webdriver_manager.microsoft import IEDriverManager
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+import urllib.request
 
-def test_firefox_session():
+def downloading():
     service = FirefoxService(executable_path=GeckoDriverManager().install())
-
     driver = webdriver.Firefox(service=service)
-
     videokey = input(
         "Please enter the unique 5 character key from your Outplayed.tv link: "
     )
     videourl = "https://outplayed.tv/media/" + videokey
     time.sleep(1)
     print(videourl)
-
     driver.get(videourl)
-
     videolink = driver.find_element_by_name("og:video")
     print(videolink)
-
-    import urllib.request
-
     url = videolink
     name = input("Enter the name for the video\n")
     name = name + ".mp4"
@@ -36,10 +30,7 @@ def test_firefox_session():
         print("Download completed..!!")
     except Exception as e:
         print(e)
-    
     driver.quit()
-
-
 
 @pytest.mark.skip(reason="only runs on Windows")
 def test_ie_session():
@@ -49,4 +40,4 @@ def test_ie_session():
 
     driver.quit()
 
-test_firefox_session()
+downloading()
