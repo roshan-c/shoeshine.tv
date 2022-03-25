@@ -14,7 +14,7 @@ while True:
     if event == sg.WIN_CLOSED or event=="Exit":
         break
     elif event == "Submit":
-        print(values["-IN-"])
+        fileselect = (values["-IN-"])
 
 SEPARATOR = "<SEPARATOR>"
 BUFFER_SIZE = 4096 # send 4096 bytes each time step
@@ -25,7 +25,7 @@ host = "192.168.1.101"
 port = 5001
 
 # the name of file we want to send, make sure it exists
-filename = "data.csv"
+filename = fileselect
 # get the file size
 filesize = os.path.getsize(filename)
 
