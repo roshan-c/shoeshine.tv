@@ -21,7 +21,7 @@ nav{
     justify-content: space-between;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     background-color: #fff;
-    position: static;
+    position: sticky;
     top: 0%;
     z-index: 10;
 }
@@ -64,4 +64,55 @@ nav{
     top: 0;
     padding-left: 2%;
     padding-top: 80px;
+}
+.shortcut-links a img{
+    width: 20px;
+    margin-right: 20px;
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.shortcut-links a:first-child{
+    color: #ed3833;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+}
+.sidebar-closed{
+    width: 5%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 9;
+    transition: 0.5s;
+}
+.sidebar-closed a p{
+    display: none;
+}
+.sidebar-closed hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
+.container{
+    background: #f9f9f9;
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    border-radius: 8px;
 }
