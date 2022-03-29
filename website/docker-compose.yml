@@ -3,7 +3,7 @@ services:
   web:
     image: img-static-site-example
     build: .
-    container_name: my-static-site
+    container_name: shoeshine-website
     restart: always
     ports:
       - "6969:69"
