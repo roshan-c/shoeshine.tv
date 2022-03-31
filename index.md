@@ -4,5 +4,5 @@
 ### Why?
 Mostly out of fear for services like 'Outplayed.tv', or 'Medal' being eventually shutdown.
 
-###Generating a safe way to conenct to a host
-Being able to safely connect to the host is an integral part of 'Shoeshine.tv' 
+### How?
+'Shoeshine.tv' relies heavily on self-hosting, and has been designed with hardware such as the Raspberry Pi 3 & 4 in mind. Due to this, all of the programming has been thought around the weaker processors that these single board computers.
