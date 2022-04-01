@@ -1,5 +1,5 @@
-# shoeshine.tv
-'shoeshine.tv’, a place to upload short videos/clips to then get a URL generated for easy sharing to friends, much like outplayed.tv, but self-hosted so never have to worry about it being shutdown. You can find the Trello board here: PLACEHOLDER.
+# Shoeshine.tv
+'Shoeshine.tv’, a place to upload short videos/clips to then get a URL generated for easy sharing to friends, much like outplayed.tv, but self-hosted so never have to worry about it being shutdown. You can find the Trello board here: PLACEHOLDER.
 
 ## Installation
 
@@ -8,7 +8,6 @@ Installation per different systems and os are not that different from one anothe
 For Windows host installs, you must have the following dependencies:
  
  * [XAMPP Web Server](https://www.apachefriends.org/index.html)
-
 
 For Windows user installs, you must have the following depedencies:
 
@@ -28,5 +27,9 @@ For Debian-based Linux host installs, you must install the following packages:
 For Arch-based Linux host installs, you must install the following packages:
 
  * PLACEHOLDER
- 
+
+## Usage
+
+Debian-Based Server:
+To start the server, you must repalce the default 'index.html' that apache2 uses with the 'index.php' found in the [Website](https://github.com/roshan-c/shoeshine.tv/tree/main/website) directory of the repositiory. This will load the front page of 'Shoeshine.tv'.
  
