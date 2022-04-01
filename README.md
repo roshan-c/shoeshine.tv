@@ -6,8 +6,8 @@
 Installation per different systems and os are not that different from one another, with the program being designed to be as platform-fluid as possible. 
 
 For Windows host installs, you must have the following dependencies:
-
-  * [XAMPP Web Server] (https://www.apachefriends.org/index.html)
+ 
+ * [XAMPP Web Server](https://www.apachefriends.org/index.html)
 
 
 For Windows user installs, you must have the following depedencies:
@@ -17,6 +17,16 @@ For Windows user installs, you must have the following depedencies:
   * [MediaInfo](https://github.com/sbraz/pymediainfo)
   * PIL/[Pillow](https://python-pillow.org/)
   * PYTHON GUI EXAMPLE
-  * [pyvideothumbnailer] (https://github.com/hhtznr/pyvideothumbnailer) TBD
+  * [pyvideothumbnailer](https://github.com/hhtznr/pyvideothumbnailer) 
+
+For Debian-based Linux host installs, you must install the following packages:
+
+ * [apache2](https://httpd.apache.org/)
+ * [MariaDB](https://mariadb.org/)
+ * [PHP](https://www.php.net/)
+
+For Arch-based Linux host installs, you must install the following packages:
+
+ * PLACEHOLDER
  
  
