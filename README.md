@@ -30,6 +30,13 @@ For Arch-based Linux host installs, you must install the following packages:
 
 ## Usage
 
+Windows-Based Server:
+
+Windows-Based User:
+
 Debian-Based Server:
 To start the server, you must repalce the default 'index.html' that apache2 uses with the 'index.php' found in the [Website](https://github.com/roshan-c/shoeshine.tv/tree/main/website) directory of the repositiory. This will load the front page of 'Shoeshine.tv'.
+
+Debian-Based User:
+
  
