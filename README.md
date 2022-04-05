@@ -32,7 +32,8 @@ For Arch-based Linux host installs, you must install the following packages:
 
 Windows-Based Server:
 
-Windows-Based User:
+Windows-Based GUI User:
+The GUI to upload clips without using the website can be ran either in executable form or as the base Python script. To run the executable, jsut double-click 'GUI.exe' to start the program, or to run the base script itself, open a command prompt in the same directory and type: python gui.py
 
 Debian-Based Server:
 To start the server, you must repalce the default 'index.html' that apache2 uses with the 'index.php' found in the [Website](https://github.com/roshan-c/shoeshine.tv/tree/main/website) directory of the repositiory. This will load the front page of 'Shoeshine.tv'.
