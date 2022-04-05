@@ -3,7 +3,7 @@
 
 ## Installation
 
-Installation per different systems and os are not that different from one another, with the program being designed to be as platform-fluid as possible. 
+Installation per different systems and OS are not that different from one another, with the program being designed to be as platform-fluid as possible. 
 
 For Windows host installs, you must have the following dependencies:
  
