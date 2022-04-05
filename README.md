@@ -26,7 +26,7 @@ For Debian-based Linux host installs, you must install the following packages:
 
 For Arch-based Linux host installs, you must install the following packages:
 
- * PLACEHOLDER
+ * [Linode's guide on setting up a LAMP stack on Arch Linux](https://www.linode.com/docs/guides/how-to-install-a-lamp-stack-on-arch-linux/)
 
 ## Usage
 
