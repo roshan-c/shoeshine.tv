@@ -7,7 +7,7 @@ Installation per different systems and OS are not that different from one anothe
 
 For Windows host installs, you must have the following dependencies:
  
- * [XAMPP Web Server](https://www.apachefriends.org/index.html)
+ * [XAMPP Web Server](https://www.apachefriends.org/xampp-files/8.1.4/xampp-windows-x64-8.1.4-1-VS16-installer.exe)
 
 For Windows user installs, you must have the following depedencies:
 
