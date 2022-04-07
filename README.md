@@ -34,6 +34,8 @@ Windows-Based Server:
 
 Windows-Based GUI User:
 The GUI to upload clips without using the website can be ran either in executable form or as the base Python script. To run the executable, jsut double-click 'GUI.exe' to start the program, or to run the base script itself, open a command prompt in the same directory and type: python gui.py
+![image](https://user-images.githubusercontent.com/65707039/162193352-47f2b3b4-ce1b-4f76-a310-161b3436d551.png)
+
 
 Debian-Based Server:
 To start the server, you must repalce the default 'index.html' that apache2 uses with the 'index.php' found in the [Website](https://github.com/roshan-c/shoeshine.tv/tree/main/website) directory of the repositiory. This will load the front page of 'Shoeshine.tv'.
