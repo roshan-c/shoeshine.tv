@@ -20,8 +20,22 @@ For Windows user installs, you must have the following depedencies:
 
 For Debian-based Linux host installs:
 
- * [Raspberry Pi's guide on setting up a LAMP server on Raspbian/Raspberry Pi OS](https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress)
- * ***Note: Whilst this guide is for Raspberry Pi devices running Raspbian/Raspberry Pi OS, this guide should work for all Debian hosts.***
+ * First you should install apache2:
+ ```
+ sudo apt-get install apache2 -y
+ ```
+ * Then, install PHP:
+ ```
+ sudo apt-get install php -y
+ ```
+ * After, install MySQL:
+ ```
+ sudo apt-get install mariadb-server php-mysql -y
+ ```
+ * Finally, restart apache2:
+ ```
+ sudo service apache2 restart
+ ```
 
 For Arch-based Linux host installs:
 
