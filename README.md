@@ -21,6 +21,7 @@ For Windows user installs, you must have the following depedencies:
 For Debian-based Linux host installs:
 
  * [Raspberry Pi's guide on setting up a LAMP server on Raspbian/Raspberry Pi OS](https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress)
+ * ***Note: Whilst this guide is for Raspberry Pi devices running Raspbian/Raspberry Pi OS, this guide should work for all Debian hosts.***
 
 For Arch-based Linux host installs:
 
