@@ -12,11 +12,11 @@ For Windows host installs, you must have the following dependencies:
 For Windows user installs, you must have the following depedencies:
 
   * [Python 3](https://www.python.org/downloads/) (3.7 or newer)
-  * [MoviePy](https://github.com/Zulko/moviepy)
-  * [MediaInfo](https://github.com/sbraz/pymediainfo)
-  * PIL/[Pillow](https://python-pillow.org/)
-  * PYTHON GUI EXAMPLE
   * [pyvideothumbnailer](https://github.com/hhtznr/pyvideothumbnailer) 
+  * You must install all the libraries found (here). This can be done by running the following command in a command prompt that is inside the folder where requirements.txt is found.
+  ```
+  pip install -r requirements.txt
+  ```
 
 For Debian-based Linux host installs:
 
