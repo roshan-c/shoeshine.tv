@@ -18,13 +18,11 @@ For Windows user installs, you must have the following depedencies:
   * PYTHON GUI EXAMPLE
   * [pyvideothumbnailer](https://github.com/hhtznr/pyvideothumbnailer) 
 
-For Debian-based Linux host installs, you must install the following packages:
+For Debian-based Linux host installs:
 
- * [apache2](https://httpd.apache.org/)
- * [MariaDB](https://mariadb.org/)
- * [PHP](https://www.php.net/)
+ * [Raspberry Pi's guide on setting up a LAMP server on Raspbian/Raspberry Pi OS](https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress)
 
-For Arch-based Linux host installs, you must install the following packages:
+For Arch-based Linux host installs:
 
  * [Linode's guide on setting up a LAMP stack on Arch Linux](https://www.linode.com/docs/guides/how-to-install-a-lamp-stack-on-arch-linux/)
 
