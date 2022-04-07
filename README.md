@@ -33,7 +33,7 @@ For Arch-based Linux host installs, you must install the following packages:
 Windows-Based Server:
 
 Windows-Based GUI User:
-The GUI to upload clips without using the website can be ran either in executable form or as the base Python script. To run the executable, just double-click 'GUI.exe' to start the program
+The GUI to upload clips without using the website can be ran either in executable form or as the base Python script. To run the executable, just right click 'GUI.exe' and then 'Run as Administrator'
 
 ![image](https://user-images.githubusercontent.com/65707039/162193646-ca7f36dc-73bc-40db-a592-41e47a22d7dd.png)
 
