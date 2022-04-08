@@ -24,14 +24,20 @@ For Debian-based Linux host installs:
  ```
  sudo apt-get install apache2 -y
  ```
+ ![image](https://user-images.githubusercontent.com/65707039/162407431-0955da57-1abc-49c1-9cef-4390fabb71c6.png)
+
  * Then, install PHP:
  ```
  sudo apt-get install php -y
  ```
+ ![image](https://user-images.githubusercontent.com/65707039/162407556-eeb4dc47-2ae6-42b5-9719-c01acc2c8b17.png)
+
  * After, install MySQL:
  ```
  sudo apt-get install mariadb-server php-mysql -y
  ```
+ ![image](https://user-images.githubusercontent.com/65707039/162407802-a70de771-9023-48ee-a8a7-62a2d1b4011a.png)
+
  * Finally, restart apache2:
  ```
  sudo service apache2 restart
