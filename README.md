@@ -44,6 +44,15 @@ For Arch-based Linux host installs:
 ## Usage
 
 Windows-Based Server:
+Once installed, open XAMPP Control Panel. You should be greeted with this screen.
+
+![image](https://user-images.githubusercontent.com/65707039/162401715-f8cc0045-e713-4702-90d1-64905de08a99.png)
+
+Start both Apache and MySQL.
+
+![image](https://user-images.githubusercontent.com/65707039/162401908-948573ba-d50f-4338-9b6a-3b4db17e65f2.png)
+
+
 
 Windows-Based GUI User:
 The GUI to upload clips without using the website can be ran either in executable form or as the base Python script. To run the executable, just right click 'GUI.exe' and then 'Run as Administrator'
