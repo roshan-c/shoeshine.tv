@@ -13,6 +13,8 @@ For Windows user installs, you must have the following depedencies:
 
   * [Python 3](https://www.python.org/downloads/) (3.7 or newer)
   * [pyvideothumbnailer](https://github.com/hhtznr/pyvideothumbnailer) 
+  *  ***PLEASE NOTE: pyvideoinstaller is provided under the BSD 3-Clause License. Copyright (c) 2020, Harald Hetzner.
+All rights reserved. ***
   * You must install all the libraries found (here). This can be done by running the following command in a command prompt that is inside the folder where requirements.txt is found.
   ```
   pip install -r requirements.txt
